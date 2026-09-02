@@ -38,41 +38,7 @@ while syöte != "5":
     elif syöte == "4":
         print("Ohjeet-valikko")
     elif syöte == "5":
-        print("Peli lopetetaan. Kiitos pelaamisesta!")
-    
-    
-        
+        print("Peli lopetetaan. Kiitos pelaamisesta!") 
 
-
-
-
-
-    #if syöte == 1:
-        print("Peli alkaa!")
-    #elif syöte == 2:
-        print(f"Pelaajan nimi: {name}")
-        print(f"Ikä: {age}")
-    # syöte == 3:
-        #print("Asetukset-valikko")
-    #elif syöte == 4:
-        #print("Ohjeet-valikko")
-    #elif syöte == 5:
-        #print("Peli lopetetaan. Kiitos pelaamisesta!")
-           #print("✦ 3. Asetukset")
-           # print("✦ 4. Ohjeet")
-           # print("✦ 5. Lopeta peli")
-    #while True:
-    #print("valitse toiminto kirjoittamalla sen numero (1-5):")
-    #elif int(input()) == 1:
-    #print("Peli alkaa!")
-    #elif int(input()) == 2:
-    #print(f"Pelaajan nimi: {name}")
-    #print(f"Ikä: {age}")
-    #elif int(input()) == 3:
-    #print("Asetukset-valikko")
-    #elif int(input()) == 4:
-    #print("Ohjeet-valikko")
-    #elif int(input()) == 5:
-    #print("Peli lopetetaan. Kiitos pelaamisesta!")
-    #else:
-    #print("Virheellinen valinta. Yritä uudelleen.")
+    if syöte == "lopeta":
+        break
