@@ -1,11 +1,49 @@
+from esine import Esine
+from huone import Huone
+from pelaaja import Pelaaja
+
+#huoneet
+def luo_huoneet():
+    makuuhuone = Huone("Makuuhuone")
+    keittio = Huone("Keittiö")
+    olohuone = Huone("Olohuone")
+
+
+#esineet
+#keksi = Esine("Keksi", 0.2)
+    olohuone.lisaa_esine(Esine("Keksi", 0.2))
+    keittio.lisaa_esine(Esine("Suklaakakku", 0.3))
+    makuuhuone.lisaa_esine(Esine("Karkkipussi", 0.3))
+
+#tallennus
+tallennustiedosto = "tallennus.txt"
+
+def lue_tiedosto(polku):
+    try:
+        with open(polku, "r") as tiedosto:
+            return tiedosto.read()
+    except FileNotFoundError:
+        return None
+
+def tallenna_peli(pelaaja):
+    with open(tallennustiedosto, "w") as tiedosto:
+        tiedosto.write(pelaaja.nimi + "\n")
+        tiedosto.write(pelaaja.sijainti.nimi.lower() + "\n")
+        esinenimet = ",".join(esine.nimi for esine in pelaaja.esineet)
+        tiedosto.write(esinenimet + "\n")
+    print("Peli tallennettu")
+#tallennus
+
 print("Kerro pelaajan nimi:")
 name = input()
 print("Kerro ikäsi:")
 age = input()
 print(f"Pelaajan nimi: {name}")
 print(f"Ikä: {age}")
+pelaaja = Pelaaja(name, makuuhuone)
 
 lista = []
+lista.append(Esine.nimi)
 
 
 def pelaa_peli():

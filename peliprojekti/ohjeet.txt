@@ -1,0 +1,9 @@
+	OHJEET
+
+1. Liiku toiseen huoneeseen (olohuone, makuuhuone, keittiö)
+2. Kerää esine (ruoat esim. keksi)
+3. Näytä pelaajan tiedot (näet syöttämäsi nimen ja iän)
+4. 
+5. 
+6. Ohjeet
+7. Lopeta peli
