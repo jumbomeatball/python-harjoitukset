@@ -8,7 +8,6 @@ def luo_huoneet():
     keittio = Huone("Keittiö")
     olohuone = Huone("Olohuone")
 
-
 #esineet
 #keksi = Esine("Keksi", 0.2)
     olohuone.lisaa_esine(Esine("Keksi", 0.2))
