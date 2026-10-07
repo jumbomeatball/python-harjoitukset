@@ -1,9 +1,19 @@
 	OHJEET
 
-1. Liiku toiseen huoneeseen (olohuone, makuuhuone, keittiö)
-2. Kerää esine (ruoat esim. keksi)
-3. Näytä pelaajan tiedot (näet syöttämäsi nimen ja iän)
-4. 
-5. 
+Tavoite
+Saada nälkä 5-0.
+
+Päävalikko
+1. Pelaa peliä
+2. Näytä pelaajan tiedot
+3. Lisää esine
+4. Näytä esineet
+5. Asetukset
 6. Ohjeet
 7. Lopeta peli
+
+Pelin valikko
+1. Liiku toiseen huoneeseen
+2. Kerää esine
+3. Syö esine
+4. Takaisin päävalikkoon
